@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sin.h
+vector
+-
+inttypes.h
+-
+
+/home/lu/Code/cpp/timbre_maker/src/sin.cpp
+sin.h
+/home/lu/Code/cpp/timbre_maker/src/sin.h
+math.h
+-
+iostream
+-
+

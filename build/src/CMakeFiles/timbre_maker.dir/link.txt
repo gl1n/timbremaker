@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimbre_maker.a  CMakeFiles/timbre_maker.dir/int2chars.cpp.o CMakeFiles/timbre_maker.dir/sin.cpp.o CMakeFiles/timbre_maker.dir/wave.cpp.o
+/usr/bin/ranlib libtimbre_maker.a
