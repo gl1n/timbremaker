@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lu/Code/cpp/timbre_maker
+CMAKE_SOURCE_DIR = /home/lu/Code/cpp/timbremaker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lu/Code/cpp/timbre_maker/build
+CMAKE_BINARY_DIR = /home/lu/Code/cpp/timbremaker/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lu/Code/cpp/timbre_maker/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Code/cpp/timbre_maker/build/CMakeFiles /home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/progress.marks
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Code/cpp/timbre_maker/build/CMakeFiles 0
+	cd /home/lu/Code/cpp/timbremaker/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Code/cpp/timbremaker/build/CMakeFiles /home/lu/Code/cpp/timbremaker/build/src/CMakeFiles/progress.marks
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu/Code/cpp/timbremaker/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lu/Code/cpp/timbremaker/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/timbre_maker.dir/rule:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/timbre_maker.dir/rule
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/timbre_maker.dir/rule
 .PHONY : src/CMakeFiles/timbre_maker.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ timbre_maker: src/CMakeFiles/timbre_maker.dir/rule
 
 # fast build rule for target.
 timbre_maker/fast:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/build
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/build
 .PHONY : timbre_maker/fast
 
 int2chars.o: int2chars.cpp.o
@@ -131,7 +131,7 @@ int2chars.o: int2chars.cpp.o
 
 # target to build an object file
 int2chars.cpp.o:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o
 .PHONY : int2chars.cpp.o
 
 int2chars.i: int2chars.cpp.i
@@ -140,7 +140,7 @@ int2chars.i: int2chars.cpp.i
 
 # target to preprocess a source file
 int2chars.cpp.i:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.i
 .PHONY : int2chars.cpp.i
 
 int2chars.s: int2chars.cpp.s
@@ -149,7 +149,7 @@ int2chars.s: int2chars.cpp.s
 
 # target to generate assembly for a file
 int2chars.cpp.s:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/int2chars.cpp.s
 .PHONY : int2chars.cpp.s
 
 sin.o: sin.cpp.o
@@ -158,7 +158,7 @@ sin.o: sin.cpp.o
 
 # target to build an object file
 sin.cpp.o:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.o
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.o
 .PHONY : sin.cpp.o
 
 sin.i: sin.cpp.i
@@ -167,7 +167,7 @@ sin.i: sin.cpp.i
 
 # target to preprocess a source file
 sin.cpp.i:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.i
 .PHONY : sin.cpp.i
 
 sin.s: sin.cpp.s
@@ -176,7 +176,7 @@ sin.s: sin.cpp.s
 
 # target to generate assembly for a file
 sin.cpp.s:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/sin.cpp.s
 .PHONY : sin.cpp.s
 
 wave.o: wave.cpp.o
@@ -185,7 +185,7 @@ wave.o: wave.cpp.o
 
 # target to build an object file
 wave.cpp.o:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.o
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.o
 .PHONY : wave.cpp.o
 
 wave.i: wave.cpp.i
@@ -194,7 +194,7 @@ wave.i: wave.cpp.i
 
 # target to preprocess a source file
 wave.cpp.i:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.i
 .PHONY : wave.cpp.i
 
 wave.s: wave.cpp.s
@@ -203,7 +203,7 @@ wave.s: wave.cpp.s
 
 # target to generate assembly for a file
 wave.cpp.s:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build && $(MAKE) -f src/CMakeFiles/timbre_maker.dir/build.make src/CMakeFiles/timbre_maker.dir/wave.cpp.s
 .PHONY : wave.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lu/Code/cpp/timbremaker/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

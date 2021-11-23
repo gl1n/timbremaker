@@ -52,7 +52,7 @@ inttypes.h
 string
 -
 
-/home/lu/Code/cpp/timbre_maker/main.cpp
+/home/lu/Code/cpp/timbremaker/main.cpp
 stdlib.h
 -
 string
@@ -60,11 +60,11 @@ string
 iostream
 -
 clipp.h
-/home/lu/Code/cpp/timbre_maker/clipp.h
+/home/lu/Code/cpp/timbremaker/clipp.h
 sin.h
-/home/lu/Code/cpp/timbre_maker/sin.h
+/home/lu/Code/cpp/timbremaker/sin.h
 wave.h
-/home/lu/Code/cpp/timbre_maker/wave.h
+/home/lu/Code/cpp/timbremaker/wave.h
 int2chars.h
-/home/lu/Code/cpp/timbre_maker/int2chars.h
+/home/lu/Code/cpp/timbremaker/int2chars.h
 

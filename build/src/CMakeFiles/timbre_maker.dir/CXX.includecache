@@ -22,19 +22,25 @@ inttypes.h
 string
 -
 
-/home/lu/Code/cpp/timbre_maker/src/sin.cpp
+/home/lu/Code/cpp/timbremaker/src/int2chars.cpp
+int2chars.h
+/home/lu/Code/cpp/timbremaker/src/int2chars.h
+iostream
+-
+
+/home/lu/Code/cpp/timbremaker/src/sin.cpp
 sin.h
-/home/lu/Code/cpp/timbre_maker/src/sin.h
+/home/lu/Code/cpp/timbremaker/src/sin.h
 math.h
 -
 iostream
 -
 
-/home/lu/Code/cpp/timbre_maker/src/wave.cpp
+/home/lu/Code/cpp/timbremaker/src/wave.cpp
 wave.h
-/home/lu/Code/cpp/timbre_maker/src/wave.h
+/home/lu/Code/cpp/timbremaker/src/wave.h
 int2chars.h
-/home/lu/Code/cpp/timbre_maker/src/int2chars.h
+/home/lu/Code/cpp/timbremaker/src/int2chars.h
 cstring
 -
 stdio.h

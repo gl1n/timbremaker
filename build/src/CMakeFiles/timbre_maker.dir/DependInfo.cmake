@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lu/Code/cpp/timbre_maker/src/int2chars.cpp" "/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o"
-  "/home/lu/Code/cpp/timbre_maker/src/sin.cpp" "/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/timbre_maker.dir/sin.cpp.o"
-  "/home/lu/Code/cpp/timbre_maker/src/wave.cpp" "/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/timbre_maker.dir/wave.cpp.o"
+  "/home/lu/Code/cpp/timbremaker/src/int2chars.cpp" "/home/lu/Code/cpp/timbremaker/build/src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o"
+  "/home/lu/Code/cpp/timbremaker/src/sin.cpp" "/home/lu/Code/cpp/timbremaker/build/src/CMakeFiles/timbre_maker.dir/sin.cpp.o"
+  "/home/lu/Code/cpp/timbremaker/src/wave.cpp" "/home/lu/Code/cpp/timbremaker/build/src/CMakeFiles/timbre_maker.dir/wave.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

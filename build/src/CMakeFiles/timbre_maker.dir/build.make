@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lu/Code/cpp/timbre_maker
+CMAKE_SOURCE_DIR = /home/lu/Code/cpp/timbremaker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lu/Code/cpp/timbre_maker/build
+CMAKE_BINARY_DIR = /home/lu/Code/cpp/timbremaker/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/timbre_maker.dir/depend.make
@@ -59,42 +59,42 @@ include src/CMakeFiles/timbre_maker.dir/flags.make
 
 src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o: src/CMakeFiles/timbre_maker.dir/flags.make
 src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o: ../src/int2chars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbre_maker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/int2chars.cpp.o -c /home/lu/Code/cpp/timbre_maker/src/int2chars.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbremaker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/timbre_maker.dir/int2chars.cpp.o"
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/int2chars.cpp.o -c /home/lu/Code/cpp/timbremaker/src/int2chars.cpp
 
 src/CMakeFiles/timbre_maker.dir/int2chars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/timbre_maker.dir/int2chars.cpp.i"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbre_maker/src/int2chars.cpp > CMakeFiles/timbre_maker.dir/int2chars.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbremaker/src/int2chars.cpp > CMakeFiles/timbre_maker.dir/int2chars.cpp.i
 
 src/CMakeFiles/timbre_maker.dir/int2chars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/timbre_maker.dir/int2chars.cpp.s"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbre_maker/src/int2chars.cpp -o CMakeFiles/timbre_maker.dir/int2chars.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbremaker/src/int2chars.cpp -o CMakeFiles/timbre_maker.dir/int2chars.cpp.s
 
 src/CMakeFiles/timbre_maker.dir/sin.cpp.o: src/CMakeFiles/timbre_maker.dir/flags.make
 src/CMakeFiles/timbre_maker.dir/sin.cpp.o: ../src/sin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbre_maker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/timbre_maker.dir/sin.cpp.o"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/sin.cpp.o -c /home/lu/Code/cpp/timbre_maker/src/sin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbremaker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/timbre_maker.dir/sin.cpp.o"
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/sin.cpp.o -c /home/lu/Code/cpp/timbremaker/src/sin.cpp
 
 src/CMakeFiles/timbre_maker.dir/sin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/timbre_maker.dir/sin.cpp.i"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbre_maker/src/sin.cpp > CMakeFiles/timbre_maker.dir/sin.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbremaker/src/sin.cpp > CMakeFiles/timbre_maker.dir/sin.cpp.i
 
 src/CMakeFiles/timbre_maker.dir/sin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/timbre_maker.dir/sin.cpp.s"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbre_maker/src/sin.cpp -o CMakeFiles/timbre_maker.dir/sin.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbremaker/src/sin.cpp -o CMakeFiles/timbre_maker.dir/sin.cpp.s
 
 src/CMakeFiles/timbre_maker.dir/wave.cpp.o: src/CMakeFiles/timbre_maker.dir/flags.make
 src/CMakeFiles/timbre_maker.dir/wave.cpp.o: ../src/wave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbre_maker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/timbre_maker.dir/wave.cpp.o"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/wave.cpp.o -c /home/lu/Code/cpp/timbre_maker/src/wave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu/Code/cpp/timbremaker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/timbre_maker.dir/wave.cpp.o"
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timbre_maker.dir/wave.cpp.o -c /home/lu/Code/cpp/timbremaker/src/wave.cpp
 
 src/CMakeFiles/timbre_maker.dir/wave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/timbre_maker.dir/wave.cpp.i"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbre_maker/src/wave.cpp > CMakeFiles/timbre_maker.dir/wave.cpp.i
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu/Code/cpp/timbremaker/src/wave.cpp > CMakeFiles/timbre_maker.dir/wave.cpp.i
 
 src/CMakeFiles/timbre_maker.dir/wave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/timbre_maker.dir/wave.cpp.s"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbre_maker/src/wave.cpp -o CMakeFiles/timbre_maker.dir/wave.cpp.s
+	cd /home/lu/Code/cpp/timbremaker/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu/Code/cpp/timbremaker/src/wave.cpp -o CMakeFiles/timbre_maker.dir/wave.cpp.s
 
 # Object files for target timbre_maker
 timbre_maker_OBJECTS = \
@@ -110,9 +110,9 @@ src/libtimbre_maker.a: src/CMakeFiles/timbre_maker.dir/sin.cpp.o
 src/libtimbre_maker.a: src/CMakeFiles/timbre_maker.dir/wave.cpp.o
 src/libtimbre_maker.a: src/CMakeFiles/timbre_maker.dir/build.make
 src/libtimbre_maker.a: src/CMakeFiles/timbre_maker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu/Code/cpp/timbre_maker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libtimbre_maker.a"
-	cd /home/lu/Code/cpp/timbre_maker/build/src && $(CMAKE_COMMAND) -P CMakeFiles/timbre_maker.dir/cmake_clean_target.cmake
-	cd /home/lu/Code/cpp/timbre_maker/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timbre_maker.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu/Code/cpp/timbremaker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libtimbre_maker.a"
+	cd /home/lu/Code/cpp/timbremaker/build/src && $(CMAKE_COMMAND) -P CMakeFiles/timbre_maker.dir/cmake_clean_target.cmake
+	cd /home/lu/Code/cpp/timbremaker/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/timbre_maker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/timbre_maker.dir/build: src/libtimbre_maker.a
@@ -120,10 +120,10 @@ src/CMakeFiles/timbre_maker.dir/build: src/libtimbre_maker.a
 .PHONY : src/CMakeFiles/timbre_maker.dir/build
 
 src/CMakeFiles/timbre_maker.dir/clean:
-	cd /home/lu/Code/cpp/timbre_maker/build/src && $(CMAKE_COMMAND) -P CMakeFiles/timbre_maker.dir/cmake_clean.cmake
+	cd /home/lu/Code/cpp/timbremaker/build/src && $(CMAKE_COMMAND) -P CMakeFiles/timbre_maker.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/timbre_maker.dir/clean
 
 src/CMakeFiles/timbre_maker.dir/depend:
-	cd /home/lu/Code/cpp/timbre_maker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Code/cpp/timbre_maker /home/lu/Code/cpp/timbre_maker/src /home/lu/Code/cpp/timbre_maker/build /home/lu/Code/cpp/timbre_maker/build/src /home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/timbre_maker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lu/Code/cpp/timbremaker/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu/Code/cpp/timbremaker /home/lu/Code/cpp/timbremaker/src /home/lu/Code/cpp/timbremaker/build /home/lu/Code/cpp/timbremaker/build/src /home/lu/Code/cpp/timbremaker/build/src/CMakeFiles/timbre_maker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/timbre_maker.dir/depend
 

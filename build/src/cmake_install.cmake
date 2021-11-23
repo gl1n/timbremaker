@@ -1,4 +1,4 @@
-# Install script for directory: /home/lu/Code/cpp/timbre_maker/src
+# Install script for directory: /home/lu/Code/cpp/timbremaker/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

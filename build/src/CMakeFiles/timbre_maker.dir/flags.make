@@ -6,5 +6,5 @@ CXX_FLAGS =  -O0 -Wall -g2 -ggdb   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lu/Code/cpp/timbre_maker/include -I/home/lu/Code/cpp/timbre_maker/src/../include 
+CXX_INCLUDES = -I/home/lu/Code/cpp/timbremaker/include -I/home/lu/Code/cpp/timbremaker/src/../include 
 

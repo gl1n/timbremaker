@@ -1,4 +1,4 @@
-# Install script for directory: /home/lu/Code/cpp/timbre_maker
+# Install script for directory: /home/lu/Code/cpp/timbremaker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/lu/Code/cpp/timbre_maker/build/src/cmake_install.cmake")
+  include("/home/lu/Code/cpp/timbremaker/build/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lu/Code/cpp/timbre_maker/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lu/Code/cpp/timbremaker/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
