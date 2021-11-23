@@ -13,6 +13,6 @@ include_directories(include)
 # 添加源文件目录
 add_subdirectory(src)
 # 指定生成目标
-add_executable(main main.cpp)
+add_executable(tbmk main.cpp)
 # 链接静态库
-target_link_libraries(main timbre_maker)
+target_link_libraries(tbmk timbre_maker)

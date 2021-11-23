@@ -29,8 +29,7 @@
 # Executables
 *.exe
 *.out
-<<<<<<< HEAD
 *.app
-=======
-*.app
->>>>>>> add .gitignore
+
+# build
+build/

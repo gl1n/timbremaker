@@ -1,6 +1,0 @@
-/home/lu/Code/cpp/timbre_maker/build/CMakeFiles/rebuild_cache.dir
-/home/lu/Code/cpp/timbre_maker/build/CMakeFiles/edit_cache.dir
-/home/lu/Code/cpp/timbre_maker/build/CMakeFiles/main.dir
-/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/rebuild_cache.dir
-/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/edit_cache.dir
-/home/lu/Code/cpp/timbre_maker/build/src/CMakeFiles/timbre_maker.dir
