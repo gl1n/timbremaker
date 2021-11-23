@@ -2,7 +2,7 @@
 #include <math.h>
 #include <iostream>
 
-double PI = 3.1415926535897932384626;
+const auto &PI = 3.1415926535897932384626;
 
 void sin(uint16_t numChannels, uint32_t sampleRate, uint32_t bitPerSample, uint32_t duration, uint32_t base_freq, std::vector<int> harmonic_weight, char **data_ptr, int *data_len)
 {
