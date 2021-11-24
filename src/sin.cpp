@@ -4,14 +4,14 @@
 
 double PI = 3.1415926535897932384626;
 
-void sin(uint16_t numChannels, uint32_t sampleRate, uint32_t bitPerSample, uint32_t duration, uint32_t base_freq, std::vector<int> harmonic_weight, char **data_ptr, int *data_len)
+void sin(uint16_t numChannels, uint32_t sampleRate, uint32_t bitPerSample, uint32_t duration, uint32_t base_freq, std::vector<int> harmonic_weight, char *&data_ptr, int &data_len)
 {
     double tau = 1 / double(sampleRate);
     if (numChannels == 1)
     {
         uint32_t numSamples = sampleRate * duration;
         char *data = (char *)malloc(bitPerSample / 8 * numSamples);
-        *data_len = bitPerSample / 8 * numSamples;
+        data_len = bitPerSample / 8 * numSamples;
         for (uint32_t i = 0; i < numSamples; i++)
         {
             double t = tau * i;
@@ -29,12 +29,12 @@ void sin(uint16_t numChannels, uint32_t sampleRate, uint32_t bitPerSample, uint3
             data[i * 2] = uA;
             data[i * 2 + 1] = uA >> 8;
         }
-        *data_ptr = data;
+        data_ptr = data;
     }
     else
     {
         std::cerr << "Monoo mode has been implemented only..." << std::endl;
-        *data_len = 0;
-        *data_ptr = nullptr;
+        data_len = 0;
+        data_ptr = nullptr;
     }
 }
